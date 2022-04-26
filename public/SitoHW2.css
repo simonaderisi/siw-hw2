@@ -3,6 +3,8 @@
 body{
   margin: 0;
   padding: 0;
+  font-family: 'Open Sans', Arial, sans-serif;
+  background-color: azure;
 }
 
 nav{
@@ -15,6 +17,7 @@ section{
 	margin-left: 6%;
 	margin-right: 6%;
 }
+
 
 .blu{
 	color: royalblue;
@@ -34,9 +37,12 @@ a:hover{
 
 
 .barra{
-	height: 10%;
+	padding: 0.4%;
 	background-color: royalblue;
-	/*padding: 3%;*/
+}
+
+.research{
+	margin-top:80px;
 }
 
 
@@ -46,7 +52,7 @@ a:hover{
 	top: 0;
 	width: 100%;
 	height: 80px;
-	/*margin-top: -80px;*/
+	line-height: 50px;
 	margin: 0;
 	background-color: royalblue;
 }
@@ -104,6 +110,10 @@ h1{
 
 /*adattamenti per mobile*/
 @media (max-width: 750px){
+	
+	.menubar{
+		line-height: normal;
+	}
 	
 	.menubar ul li{
 		font-size:0.9em;
